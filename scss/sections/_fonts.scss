@@ -1,0 +1,21 @@
+// Основной шрифт на сайте с предзагрузкой
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Montserrat-Regular"),
+         url(assets/fonts/Montserrat-Regular.woff) 
+         format("woff");
+}
+@font-face {
+    font-family: "Montserrat-Bold";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Montserrat-Bold"),
+         url(assets/fonts/Montserrat-Bold.woff) 
+         format("woff");
+}
+

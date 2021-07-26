@@ -1,0 +1,24 @@
+// обнуление Стилей
+
+@import 'sections/normalize';
+
+@import 'sections/grids';
+
+// шрифты
+@import 'sections/fonts';
+
+//Шапка сайта
+@import 'sections/header';
+
+//Содержимое страницы
+@import 'sections/welcome';
+@import 'sections/about';
+@import 'sections/catalog';
+@import 'sections/tariff';
+@import 'sections/daily';
+@import 'sections/competention';
+
+
+
+
+

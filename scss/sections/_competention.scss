@@ -1,0 +1,65 @@
+.competention {
+
+    // .competention__body
+
+    &__body {
+        display: flex;
+        padding: 50px 10px;
+    }
+
+    // .competention__img
+
+    &__img {
+        width: 50%;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    // .competention__text
+
+    &__text {
+        width: 50%;
+    }
+
+    // .competention__title
+
+    &__title {
+        text-align: center;
+        h3 {
+            margin: 0;
+            font-size: 30px;
+            font-family: "Montserrat-bold";
+            font-weight: 700;
+        }
+    }
+
+    // .competention__list
+
+    &__list {
+        font-size: 18px;
+        padding: 0;
+        padding-left: 30px;
+        list-style: url(assets/img/icons/star.gif);
+        line-height: 1.3;
+        li {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .competention {
+        &__body {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        &__text {
+            width: 100%;
+        }
+    }
+}
