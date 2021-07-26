@@ -1251,4 +1251,102 @@ body {
     width: 100%;
   }
 }
+
+.progress__body {
+  padding: 40px 10px;
+  background-color: #3c90be;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.progress__progress {
+  width: 33%;
+  text-align: left;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.progress__progress .progress-bar {
+  background-color: #3682ab;
+  height: 20px;
+  padding-right: 30px;
+  max-width: 80%;
+}
+
+.progress__item {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.progress__img {
+  width: 33%;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Montserrat-bold', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.progress__img span {
+  display: block;
+}
+
+.progress__img img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.progress__comment {
+  width: 33%;
+}
+
+.comment-item {
+  color: #000;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 3px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.comment-item::after {
+  content: "";
+  position: absolute;
+  left: 80px;
+  bottom: -16px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #eee transparent transparent #eee;
+}
+
+.comment-img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .progress__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .progress__progress {
+    width: 100%;
+  }
+  .progress__img {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .progress__comment {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
